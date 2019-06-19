@@ -1,11 +1,15 @@
-/* .typeWriter {
+.typeWriter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
     overflow:hidden;
     border-right: .15em solid blue;
     white-space:no-wrap;
     margin: 0 auto;
     letter-spacing:.15;
     animation:
-    typing 3.5s steps(40, end),
+    typing 5.5s steps(40, end),
     blink-caret .75s step-end infinite;
     }
     
@@ -17,8 +21,13 @@
     @keyframes blink-caret{
       from, to {border-color: transparent}
       50% {border-color:blue;}
-    } */
+    }
 
-/* .bg{
-    background-color: red;
-} */
+    .Canvas{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100vw;
+        height: 100vh;
+        background: #3F4045;
+    }

@@ -13,14 +13,14 @@ function Header () {
             src={glowingBG3}
             alt="glowing"
             />
-            <div className="typeWriter">
-                <h1 className="testing">
+            <span className="typeWriter">
+                <div className="testing">
                     Hello my name is <span className="highlight">
                         Michael Trevino
                     </span>
-                    ...
-                </h1>
-            </div>
+                    .
+                </div>
+            </span>
         </div>
     </ScrollableAnchor>
     )

@@ -1,29 +1,45 @@
 import React from 'react';
 // import ScrollableAnchor from 'react-scrollable-anchor';
-import Matrix from '../assets/Matrix.gif'
-import '../styles/header.css';
+import Room from '../assets/Room.gif'
+import '../styles/index.css'
 
 
 function Header () {
     return(
         <div className="Canvas">
-            <img 
+             <img 
             className="homeImage"
-            src={Matrix}
+            src={Room}
             alt="glowing"
-            />
+            /> 
             <span className="typeWriter">
                 <div className="homePageText">
                     Hello my name is <span className="highlight">
                         Michael-Trevino
                     </span> and I'm
-                     a <span className="highlight">Full-Stack</span> developer.
+                     a <span className="highlight">Full-Stack</span> web developer.
                 </div>
-                {/* <button className="homeButton">test</button> */}
             </span>
-            <button className="homeButton">Portfolio</button>
+            <button href="#aboutMe" className="homeButton">Portfolio</button>
         </div>
     )
 }
 
 export default Header
+
+// #FF0066 = Neon Pink
+// #FF00 = Neon Green
+// #FFFF00 = Neon Yellow
+// #FF3300 = Neon Orange
+// #FF0009 = Neon Red
+// #56600FF = Neon Purple
+// #FF99 = Neon Mint Green
+// #BF = Neon Dark Blue
+// #FF = Neon Blue
+// #FFFF = Light Blue
+
+// #50BFE6 = Blizzard Blue
+
+// #FF6EFF = Shocking Pink
+
+// #EE34D2 = Razzle Dazzle Rose

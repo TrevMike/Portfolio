@@ -1,0 +1,18 @@
+.aboutMeContainer{
+height: 100vh;
+background: black;
+}
+
+.aboutMeImage{
+    height: 100vh;
+    width: 99vw;
+    opacity: 0.5;
+}
+
+.myLife{
+    color: white;
+    opacity: 2;
+    position: absolute; 
+    top:100vh;
+    /* left: 0; */ 
+}

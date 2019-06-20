@@ -1,0 +1,9 @@
+.mainPage{
+    max-height: none;
+    /* width: 100vw; */
+}
+
+.bottomArrow{
+    position: absolute;
+    opacity: 1;
+}

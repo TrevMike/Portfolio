@@ -14,5 +14,8 @@ background: black;
     opacity: 2;
     position: absolute; 
     top:100vh;
+    font-family: "Courier New", Courier, monospace;
+    color:#00FFFF;
+    /* color:#FFFF00; */
     /* left: 0; */ 
 }

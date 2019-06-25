@@ -3,6 +3,7 @@ import React from 'react';
 import '../styles/index.css'
 import Header from '../header/Header'
 import AboutMe from '../aboutMe/AboutMe'
+// import Button from '@material-ui/core';
 
 function MainPage() {
     return (

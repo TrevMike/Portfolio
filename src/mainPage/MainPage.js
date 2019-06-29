@@ -10,7 +10,6 @@ function MainPage() {
       <div className="mainPage">
      
             <Header/>
-
             <AboutMe/>
       </div>
     );

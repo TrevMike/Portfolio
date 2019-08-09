@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position:absolute;
+    position:fixed;
     opacity:2;
     background: transparent;
     color:#49fb35;
@@ -67,7 +67,7 @@
     height: auto;
       
     /* Set up positioning */
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     animation: fadein1 8s; 
@@ -98,7 +98,7 @@
 }
 
 .homeButton{
-    position:absolute;
+    position:fixed;
     margin: 5% 0 0 0;
     background:transparent;
     color: #49fb35;

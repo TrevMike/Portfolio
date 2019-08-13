@@ -24,16 +24,6 @@ function AboutMe(){
             /> */}
         
                 <div className="myLife">
-                <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
-      </ul>
-    </div>
-  </nav>
                     <h1>Michael-Trevino</h1>
                     I have found a passion on working with UI animations, effects, and creating<br/>
                     great dynamic user experiences and always willing to learn to get better.<br/>

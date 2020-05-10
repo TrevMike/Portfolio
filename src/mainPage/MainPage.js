@@ -1,24 +1,24 @@
-import React from 'react';
+import React from "react";
 // import ScrollableAnchor from 'react-scrollable-anchor';
-import '../styles/index.css'
-import Header from '../header/Header'
-import AboutMe from '../aboutMe/AboutMe'
-import Portfolio from '../portfolio/Portfolio'
+import "../styles/index.css";
+// import Header from "../header/Header";
+// import AboutMe from "../aboutMe/AboutMe";
+// import Portfolio from "../portfolio/Portfolio";
+import TerminalComponent from "../terminalComponent/TerminalComponent";
 // import Button from '@material-ui/core';
 
 function MainPage() {
-    return (
-      <div className="mainPage">
-     
-            <Header/>
-            <AboutMe/>
-            <Portfolio/>
-            
-      </div>
-    );
-  }
-  
-  export default MainPage
+  return (
+    <div className="mainPage">
+      {/* <Header /> */}
+      {/* <AboutMe />
+      <Portfolio /> */}
+      <TerminalComponent />
+    </div>
+  );
+}
+
+export default MainPage;
 
 //   <nav>
 //   <div className="nav-wrapper">

@@ -1,37 +1,34 @@
-import React from 'react';
+import React from "react";
 // import ScrollableAnchor from 'react-scrollable-anchor';
-import Room from '../assets/Room.gif'
-import '../styles/index.css'
+import Room from "../assets/Room.gif";
+import "../styles/index.css";
 
 // test
-function Header () {
-    return(
-        <div className="Canvas">
-             <img 
-            className="homeImage"
-            src={Room}
-            alt="glowing"
-            /> 
-            <span className="typeWriter">
-                <div className="homePageText">
-                    Hello my name is <span className="highlight">
-                        Michael-Trevino
-                    </span> and I'm
-                     a <span className="highlight">Full-Stack</span> web developer.
-                </div>
-            </span>
-            <button href="#aboutMe" className="homeButton">Portfolio</button>
+function Header() {
+  return (
+    <div className="Canvas">
+      <img className="homeImage" src={Room} alt="glowing" />
+      <span className="typeWriter">
+        <div className="homePageText">
+          Hello my name is <span className="highlight">Michael-Trevino</span>{" "}
+          and I'm a <span className="highlight">Full-Stack</span> web developer.
         </div>
-    )
+      </span>
+      <button href="#aboutMe" className="homeButton">
+        Portfolio <i class="material-icons">add</i>
+      </button>
+    </div>
+  );
 }
 
-export default Header
+export default Header;
 
 // #FF0066 = Neon Pink
 // #FF00 = Neon Green
 // #FFFF00 = Neon Yellow
 // #FF3300 = Neon Orange
-// #FF0009 = Neon Red
+// #FF0009 = Neon RedMocha
+
 // #56600FF = Neon Purple
 // #FF99 = Neon Mint Green
 // #BF = Neon Dark Blue

@@ -5,6 +5,9 @@
   height: 400px;
   border-radius: 7px;
 }
+.off {
+  display: none;
+}
 
 .toolBar {
   display: flex;
@@ -78,6 +81,11 @@
   width: 100%;
 }
 
+.propsContent {
+  /* font-size: 0.89rem; */
+  margin-top: 3px;
+  width: 100%;
+}
 .centerTool {
   width: 80%;
   margin-top: 5px;

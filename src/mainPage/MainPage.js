@@ -8,12 +8,13 @@ import TerminalComponent from "../terminalComponent/TerminalComponent";
 // import Button from '@material-ui/core';
 
 function MainPage() {
+  let headerFont = "Hello this is working";
   return (
     <div className="mainPage">
       {/* <Header /> */}
       {/* <AboutMe />
       <Portfolio /> */}
-      <TerminalComponent />
+      <TerminalComponent content={headerFont} />
     </div>
   );
 }

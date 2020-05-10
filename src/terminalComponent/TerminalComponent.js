@@ -1,15 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/index.css";
 
-function TerminalComponent() {
-  let date = new Date();
-  let day = date.toLocaleString();
+function TerminalComponent(props) {
+  const date = new Date();
+  const day = date.toLocaleString();
+
+  const [toggle, setToggle] = useState(true);
+
+  const clickExitHandler = () => {
+    setToggle(!toggle);
+  };
 
   return (
-    <div className="silverTrim">
+    <div className={toggle ? "silverTrim" : "off"}>
       <div className="toolBar">
         <div className="navButtons ">
-          <div className="circles redB z-depth-5" />
+          <div className="circles redB z-depth-5" onClick={clickExitHandler} />
           <div className="circles yellowB z-depth-5" />
           <div className="circles greenB z-depth-5" />
           <div className="centerTool">
@@ -22,7 +28,9 @@ function TerminalComponent() {
           {`Last Login: ${day}`}
           <br />
           michael_trevino -- FullStackDev
+          <div className="propsContent">{props.content}</div>
         </div>
+        {/* <div>Hello just testing this out</div> */}
         <div className="scrollBar">
           <div className="squareBar">
             <div className="smallBar">

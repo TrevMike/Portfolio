@@ -23,6 +23,7 @@ function TerminalComponent(props) {
           </div>
         </div>
       </div>
+
       <div className="terminal">
         <div className="terminalFont">
           {`Last Login: ${day}`}

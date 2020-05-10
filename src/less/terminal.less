@@ -24,43 +24,49 @@
   border-radius: 7px 7px 0px 0px;
   width: 100%;
   margin-left: 1px;
-}
-
-.circles {
-  width: 12px;
-  height: 12px;
-  padding: 0.5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
-  margin: 0.5%;
-}
-
-.redB {
-  background: #ff5f5f;
-  margin-left: 7px;
-}
-
-.redB:hover {
-  background: #af0000;
-}
-
-.yellowB {
-  background: #ffd75f;
-}
-
-.yellowB:hover {
-  background: #af8700;
-}
-
-.greenB {
-  background: #87d75f;
-}
-
-.greenB:hover {
-  background: #87af5f;
-}
+  .circles {
+    width: 12px;
+    height: 12px;
+    padding: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin: 0.5%;
+  } //Circles
+  .redB {
+    background: #ff5f5f;
+    margin-left: 7px;
+    &:hover {
+      background: #af0000;
+    }
+  } //redB
+  .yellowB {
+    background: #ffd75f;
+    &:hover {
+      background: #af8700;
+    }
+  } //yellowB
+  .greenB {
+    background: #87d75f;
+    &:hover {
+      background: #87af5f;
+    }
+  } //greenB
+  .centerTool {
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #b2b2b2;
+    align-self: center;
+    text-align: center;
+    cursor: default;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+  } // centerTool
+} // NavButtons
 
 .terminal {
   background: #080808;
@@ -79,24 +85,10 @@
   margin-left: 10px;
   margin-top: 5px;
   width: 100%;
-}
-
-.propsContent {
-  /* font-size: 0.89rem; */
-  margin-top: 3px;
-  width: 100%;
-}
-.centerTool {
-  width: 80%;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 1rem;
-  color: #b2b2b2;
-  align-self: center;
-  text-align: center;
-  cursor: default;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  .propsContent {
+    margin-top: 3px;
+    width: 100%;
+  }
 }
 
 .scrollBar {
@@ -104,29 +96,26 @@
   color: white;
   width: 14px;
   border-radius: 0px 0px 7px 0px;
-}
-
-.squareBar {
-  background: #767676;
-  width: 14px;
-  height: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.smallBar {
-  background: #b2b2b2;
-  width: 8px;
-  height: 9px;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  align-items: center;
-}
-
-.greySmallBar {
-  background: #4e4e4e;
-  width: 6px;
-  height: 2px;
-}
+  .squareBar {
+    background: #767676;
+    width: 14px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .smallBar {
+      background: #b2b2b2;
+      width: 8px;
+      height: 9px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+      .greySmallBar {
+        background: #4e4e4e;
+        width: 6px;
+        height: 2px;
+      } //greySmallBar
+    } //smallBar
+  } //squareBar
+} //scrollBar

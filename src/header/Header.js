@@ -1,5 +1,4 @@
 import React from "react";
-// import ScrollableAnchor from 'react-scrollable-anchor';
 import Room from "../assets/Room.gif";
 import "../styles/index.css";
 

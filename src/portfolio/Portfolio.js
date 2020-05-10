@@ -1,10 +1,11 @@
 import React from "react";
-import "../styles/index.css";
-
+import "../css/index.css";
+import TerminalComponent from "../terminalComponent/TerminalComponent";
 function Portfolio() {
+  const portfolioFont = "Hello from the portfolio";
   return (
-    <div className="Portfolio">
-      <div>testing</div>
+    <div className="portfolioHolder">
+      <TerminalComponent content={portfolioFont} />
     </div>
   );
 }

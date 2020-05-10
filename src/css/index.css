@@ -124,13 +124,31 @@ table {
   border-spacing: 0;
 }
 .homePage {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: url(../assets/Room.gif) no-repeat center center fixed;
   background-size: cover;
+}
+.navbar-fixed {
+  position: absolute;
+  z-index: 999999999;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.headerHolder {
+  width: 100%;
+  min-height: 100vh;
+}
+.aboutMeHolder {
+  width: 100%;
+  min-height: 100vh;
+}
+.portfolioHolder {
+  width: 100%;
+  min-height: 100vh;
 }
 .silverTrim {
   background: #4e4e4e;

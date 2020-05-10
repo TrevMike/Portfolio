@@ -1,9 +1,8 @@
 .silverTrim {
   background: #4e4e4e;
   border: solid #eeeeee 0.5px;
-  width: 800px;
-  height: 400px;
   border-radius: 7px;
+  .widthAndHeight(800px,400px);
 }
 .off {
   display: none;
@@ -62,16 +61,13 @@
     align-self: center;
     text-align: center;
     cursor: default;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-      "Segoe UI Symbol";
+    font-family: @terminalBarFont;
   } // centerTool
 } // NavButtons
 
 .terminal {
   background: #080808;
-  height: 93.2%;
-  width: 99.7%;
+  .widthAndHeight(99.7%, 93.2%);
   margin: 0 auto;
   border-radius: 0px 0px 7px 7px;
   display: flex;
@@ -79,8 +75,8 @@
 }
 
 .terminalFont {
-  color: #00ff00;
-  font-family: "Courier New", Courier, monospace;
+  color: @mainFontColor;
+  font-family: @terminalFont;
   font-size: 0.89rem;
   margin-left: 10px;
   margin-top: 5px;

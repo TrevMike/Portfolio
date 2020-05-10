@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/index.css";
+import "../css/index.css";
 
 function TerminalComponent(props) {
   const date = new Date();

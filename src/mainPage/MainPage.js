@@ -1,6 +1,6 @@
 import React from "react";
 // import ScrollableAnchor from 'react-scrollable-anchor';
-import "../styles/index.css";
+import "../css/index.css";
 // import Header from "../header/Header";
 // import AboutMe from "../aboutMe/AboutMe";
 // import Portfolio from "../portfolio/Portfolio";

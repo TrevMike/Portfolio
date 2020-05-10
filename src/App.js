@@ -1,7 +1,7 @@
 import React from "react";
 import MainPage from "./mainPage/MainPage";
 // import term
-import "./styles/index.css";
+import "../src/css/index.css";
 // import terminalComponent from "./terminalComponent/terminalComponent";
 // import './index.css';
 

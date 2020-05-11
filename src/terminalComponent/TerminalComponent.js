@@ -31,7 +31,6 @@ function TerminalComponent(props) {
           michael_trevino -- FullStackDev
           <div className="propsContent">{props.content}</div>
         </div>
-        {/* <div>Hello just testing this out</div> */}
         <div className="scrollBar">
           <div className="squareBar">
             <div className="smallBar">

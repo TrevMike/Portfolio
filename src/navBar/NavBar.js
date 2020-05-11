@@ -24,7 +24,7 @@ function NavBar() {
               </Link>
             </li>
             <li>
-              <Link to="portfolio" smooth={true} duration={1000}>
+              <Link to="fAskQuestions" smooth={true} duration={1000}>
                 <span className="teal-text">FAQ</span>
               </Link>
             </li>

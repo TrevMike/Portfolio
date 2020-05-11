@@ -149,6 +149,9 @@ table {
   width: 100%;
   min-height: 100vh;
 }
+.typingText {
+  margin-top: 0.5%;
+}
 .skillsContent {
   margin-top: 1.5%;
 }

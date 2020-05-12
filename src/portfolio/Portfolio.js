@@ -15,9 +15,10 @@ function Portfolio() {
       </p>
     </div>
   );
+  const cssSize = "portfolioSize1";
   return (
     <div className="portfolioHolder">
-      <TerminalComponent content={portfolioFont} />
+      <TerminalComponent content={portfolioFont} size={cssSize} />
     </div>
   );
 }

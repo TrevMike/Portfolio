@@ -3,6 +3,7 @@ import "../css/index.css";
 import Header from "../header/Header";
 import AboutMe from "../aboutMe/AboutMe";
 import Portfolio from "../portfolio/Portfolio";
+import FAQ from "../faq/FAQ";
 import Footer from "../footer/Footer";
 
 function HomePage() {
@@ -16,6 +17,9 @@ function HomePage() {
       </section>
       <section id="portfolio">
         <Portfolio />
+      </section>
+      <section id="fAskedQuestions">
+        <FAQ />
       </section>
       <Footer />
     </div>

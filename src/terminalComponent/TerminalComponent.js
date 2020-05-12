@@ -12,7 +12,7 @@ function TerminalComponent(props) {
   };
 
   return (
-    <div className={toggle ? "silverTrim" : "off"}>
+    <div className={toggle ? `silverTrim ${props.size}` : "off"}>
       <div className="toolBar">
         <div className="navButtons ">
           <div className="circles redB z-depth-5" onClick={clickExitHandler} />

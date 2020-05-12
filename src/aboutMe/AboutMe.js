@@ -9,7 +9,7 @@ function AboutMe() {
       <h6 className="typingText ">
         About-me... yarn add <span className="blue-text">Growing-up</span>
       </h6>
-      <p className="typingText ">
+      <p className="typingText pContent">
         I grew up in the bottom tip of Texas in a town called La Joya, Graduated
         from Edingburg North High in 2012 then went to South Texas College, but
         eventually dropped out, a few years later I then went to Lambda School
@@ -22,7 +22,7 @@ function AboutMe() {
       <h6 className="typingText flow-tex">
         About-me... yarn add <span className="blue-text">My-Passion</span>
       </h6>
-      <p className="typingText">
+      <p className="typingText pContent">
         I have a long list of passions, I love my wife, I love music, I've been
         playing guitar since I was in elementary School. For a while I was a
         session guitarist at a local studio. I love painting when there is down
@@ -89,17 +89,20 @@ function AboutMe() {
       </div>
     </div>
   );
-
+  const cssSize1 = "aboutMeSize1";
+  const cssSize2 = "aboutMeSize2";
+  const cssSize3 = "aboutMeSize3";
   return (
     <div className="aboutMeHolder">
-      <Zoom>
-        <TerminalComponent content={growingUp} />
-      </Zoom>
-      <Zoom>
-        <TerminalComponent content={myPassion} />
-      </Zoom>
-
-      <TerminalComponent content={myStrengths} />
+      <div className="topAboutHolder">
+        <Zoom>
+          <TerminalComponent content={growingUp} size={cssSize1} />
+        </Zoom>
+        <Zoom>
+          <TerminalComponent content={myPassion} size={cssSize2} />
+        </Zoom>
+      </div>
+      <TerminalComponent content={myStrengths} size={cssSize3} />
     </div>
   );
 }

@@ -25,10 +25,11 @@ function Header() {
       className="typingText"
     />
   );
+  const cssSize1 = "headerSize1";
   return (
     <div className="headerHolder">
       <div>
-        <TerminalComponent content={headerFont} />
+        <TerminalComponent content={headerFont} size={cssSize1} />
       </div>
     </div>
   );

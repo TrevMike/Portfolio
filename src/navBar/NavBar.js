@@ -7,7 +7,7 @@ function NavBar() {
     <div className="navbar-fixed z-depth-5">
       <nav className="transparent z-depth-0">
         <div className="nav-wrapper">
-          <ul id="nav-mobile" className="right hide-on-med-and-down">
+          <ul id="nav-mobile" className="left hide-on-med-and-down">
             <li>
               <Link to="header" smooth={true} duration={1000}>
                 <span className="teal-text">Home</span>
@@ -24,7 +24,7 @@ function NavBar() {
               </Link>
             </li>
             <li>
-              <Link to="fAskQuestions" smooth={true} duration={1000}>
+              <Link to="fAskedQuestions" smooth={true} duration={1000}>
                 <span className="teal-text">FAQ</span>
               </Link>
             </li>

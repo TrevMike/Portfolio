@@ -1,8 +1,18 @@
 .aboutMeHolder {
   .fullPage();
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  .topAboutHolder {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
 }
+
 .typingText {
-  margin-top: 0.5%;
+  margin-top: 1%;
 }
 .skillsContent {
   margin-top: 1.5%;
@@ -49,4 +59,15 @@
 .nodeBar {
   background: @mainFontColor;
   .widthAndHeight(65%,100%);
+}
+.aboutMeSize1 {
+  .widthAndHeight(600px,250px);
+  margin-top: 10%;
+}
+.aboutMeSize2 {
+  .widthAndHeight(525px,300px);
+  margin-top: 20%;
+}
+.aboutMeSize3 {
+  .widthAndHeight(800px,250px);
 }

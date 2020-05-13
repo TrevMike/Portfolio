@@ -21,7 +21,9 @@ function HomePage() {
       <section id="fAskedQuestions">
         <FAQ />
       </section>
-      <Footer />
+      <section id="contacts">
+        <Footer />
+      </section>
     </div>
   );
 }

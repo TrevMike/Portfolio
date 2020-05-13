@@ -48,7 +48,7 @@ function FAskedQuestions() {
       <div className="typingText pContent">
         <h6 className="red-text">Do you have a resume?</h6>
         Yes I do, and here is a link to my resume.
-        <a href="https://www.facebook.com/" target={tab}>
+        <a href="https://www.google.com/" target={tab}>
           {" "}
           Resume!
         </a>

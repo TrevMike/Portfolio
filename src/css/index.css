@@ -1,7 +1,3 @@
-div .pContent {
-  margin-top: 2%;
-  margin-right: 0.5%;
-}
 html,
 body,
 div,
@@ -127,6 +123,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+div .pContent {
+  margin-top: 2%;
+  margin-right: 0.5%;
+}
 .homePage {
   width: 100%;
   min-height: 100vh;
@@ -152,8 +152,8 @@ table {
   align-items: center;
 }
 .headerSize1 {
-  width: 800px;
-  height: 400px;
+  width: 55vw;
+  height: 50vh;
 }
 .aboutMeHolder {
   width: 100%;
@@ -223,18 +223,18 @@ table {
   height: 100%;
 }
 .aboutMeSize1 {
-  width: 600px;
-  height: 250px;
+  width: 45vw;
+  height: 25vh;
   margin-top: 10%;
 }
 .aboutMeSize2 {
-  width: 525px;
-  height: 300px;
+  width: 40vw;
+  height: 30vh;
   margin-top: 20%;
 }
 .aboutMeSize3 {
-  width: 800px;
-  height: 250px;
+  width: 55vw;
+  height: 32vh;
 }
 .portfolioHolder {
   width: 100%;
@@ -244,8 +244,8 @@ table {
   align-items: center;
 }
 .portfolioSize1 {
-  width: 800px;
-  height: 275px;
+  width: 55vw;
+  height: 35vh;
 }
 .faqHolder {
   width: 100%;
@@ -255,8 +255,23 @@ table {
   align-items: center;
 }
 .faqSize1 {
-  width: 95%;
-  height: 600px;
+  width: 80%;
+  height: 65vh;
+}
+.page-footer {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+  z-index: 1;
+  font-size: 1.1rem;
+}
+.page-footer h5 {
+  font-size: 1.6rem;
+}
+.footer-copyright {
+  font-size: 0.8rem;
+}
+ul .fhChange:hover {
+  color: lightgray !important;
 }
 .silverTrim {
   background: #4e4e4e;

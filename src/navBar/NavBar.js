@@ -28,6 +28,11 @@ function NavBar() {
                 <span className="teal-text">FAQ</span>
               </Link>
             </li>
+            <li>
+              <Link to="contacts" smooth={true} duration={1000}>
+                <span className="teal-text">Contact</span>
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

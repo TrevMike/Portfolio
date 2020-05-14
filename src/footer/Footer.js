@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "../css/index.css";
 import { Link } from "react-scroll";
+import FormModel from "../form/FormModel";
 function Footer() {
+  const [toggle, setToggle] = useState(false);
+  const clickReveal = () => {
+    setToggle(!toggle);
+  };
+
   return (
     <div className="contactFooter">
+      <FormModel display={toggle} />
       <footer className="page-footer">
         <div class="container">
           <div class="row">
@@ -14,9 +21,10 @@ function Footer() {
                   <li>
                     <a
                       class="blue-text fhChange"
-                      href="mailto: preince560m@gmail.com"
+                      href="#!"
+                      onClick={clickReveal}
                     >
-                      Preince560m@gmail.com
+                      Contact me via email
                     </a>
                   </li>
                   <li>

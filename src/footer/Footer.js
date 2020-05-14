@@ -59,7 +59,7 @@ function Footer() {
         <div class="footer-copyright">
           <div class="container blue-text">
             © 2020 Copyright
-            <span class="blue-text right" href="#!">
+            <span class="blue-text right">
               I do not own the background image.
             </span>
           </div>

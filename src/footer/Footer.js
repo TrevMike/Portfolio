@@ -3,7 +3,7 @@ import "../css/index.css";
 import { Link } from "react-scroll";
 import FormModel from "../form/FormModel";
 function Footer() {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
   const clickReveal = () => {
     setToggle(!toggle);
   };

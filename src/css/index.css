@@ -185,8 +185,6 @@ div .pContent {
 }
 .skill .skillName {
   min-width: 15%;
-  max-width: 15%;
-  margin-right: 5%;
 }
 .skill .progressBar {
   width: 70%;
@@ -201,27 +199,27 @@ div .pContent {
 }
 .htmlBar {
   background: #00ff00;
-  width: 75%;
+  width: 80%;
   height: 100%;
 }
 .cssBar {
   background: #00ff00;
-  width: 75%;
+  width: 80%;
   height: 100%;
 }
 .jsBar {
   background: #00ff00;
-  width: 70%;
+  width: 75%;
   height: 100%;
 }
 .reactBar {
   background: #00ff00;
-  width: 65%;
+  width: 70%;
   height: 100%;
 }
 .nodeBar {
   background: #00ff00;
-  width: 65%;
+  width: 70%;
   height: 100%;
 }
 .aboutMeSize1 {

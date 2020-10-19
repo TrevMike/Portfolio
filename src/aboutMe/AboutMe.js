@@ -44,7 +44,7 @@ function AboutMe() {
               <div className="htmlBar" />
             </Fade>
           </div>
-          <span>75%</span>
+          <span>80%</span>
         </div>
 
         <div className="skill">
@@ -54,7 +54,7 @@ function AboutMe() {
               <div className="cssBar" />
             </Fade>
           </div>
-          <span>75%</span>
+          <span>80%</span>
         </div>
 
         <div className="skill">
@@ -64,7 +64,7 @@ function AboutMe() {
               <div className="jsBar" />
             </Fade>
           </div>
-          <span>70%</span>
+          <span>75%</span>
         </div>
 
         <div className="skill">
@@ -74,7 +74,7 @@ function AboutMe() {
               <div className="reactBar" />
             </Fade>
           </div>
-          <span>65%</span>
+          <span>70%</span>
         </div>
 
         <div className="skill">
@@ -84,7 +84,7 @@ function AboutMe() {
               <div className="nodeBar" />
             </Fade>
           </div>
-          <span>65%</span>
+          <span>70%</span>
         </div>
       </div>
     </div>

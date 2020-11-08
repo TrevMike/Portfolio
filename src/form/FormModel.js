@@ -27,7 +27,7 @@ function FormModel(props) {
             placeholder="Let me know how I can help you..."
             className="white-text grey darken-3"
           />
-          <submit />
+          {/* <submit /> */}
         </form>
       </div>
     </Fade>
